@@ -15,7 +15,7 @@
   }
   
   
-  header{
+  .header{
     background:url('https://s3picturehouses.s3.eu-central-1.amazonaws.com/header/ph_15977496885f3bb9b84457c.jpg');
     background-size:cover;
     background-position:center;
@@ -24,3 +24,90 @@
     position:relative;
     padding-top:80px;
   }
+
+  header nav .fa{
+    cursor:pointer;
+    display:none;
+  }
+  header nav .fa:hover{
+    color:#DB0000;
+  }
+  .nav{
+    background:#fff;
+    color:#000;
+    transition:background .5s;
+    
+  }
+  .navBlack{
+    background:#000;
+    color:#fff;
+    transition:background .5s;
+    
+  }
+  header nav .logo{
+    font-weight:700;
+    font-size:1.5em;
+  }
+  header nav .logo span{
+    color:#DB0000;
+  }
+  header nav ul .marker{
+    background:#DB0000;
+    width:40px;
+    height:2px;
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    border-radius:20px;
+  }
+  header nav ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    text-transform:uppercase;
+    list-style:none;
+    position:relative;
+  }
+  header nav ul li{
+    cursor:pointer;
+  }
+  header nav ul li span{
+    display:flex;
+    gap:8px;
+    align-items:center;
+  }
+  header nav ul li img{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    object-fit:cover;
+  }
+  header .popular-movie-slider{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    gap:35px;
+    padding:10px 100px;
+    position:relative;
+  }
+  header .popular-movie-slider .poster{
+    width:300px;
+    height:400px;
+    object-fit:cover;
+    border-radius:10px;
+  }
+  header .popular-movie-slider .popular-movie-slider-content{
+    line-height:25px;
+  }
+  header .popular-movie-slider .popular-movie-slider-content .movie-name{
+    font-size:1.8em;
+  }
+  header .popular-movie-slider .popular-movie-slider-content .category{
+    display:flex;
+    gap:30px;
+    text-transform:capitalize;
+    margin:10px 0;
+  }
+  
