@@ -1,0 +1,26 @@
+/*-----css movie site -----*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition:all .2s;
+  }
+  
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+    overflow:hidden;
+    overflow-y:scroll;
+  }
+  
+  
+  header{
+    background:url('https://s3picturehouses.s3.eu-central-1.amazonaws.com/header/ph_15977496885f3bb9b84457c.jpg');
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    height:550px;
+    position:relative;
+    padding-top:80px;
+  }
